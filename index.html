@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="format-detection" content="telephone=no">
+        <title>互动城</title>
+        <link rel="stylesheet" type="text/css" href="css/swiper.css">
+        <link rel="stylesheet" type="text/css" href="css/page.css">
+        <script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
+        <script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+        <script src="js/data.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+
+    <body>
+        <div class="homepage-box">
+            <img src="img/mainPic_01.jpg" />
+            <img src="img/mainPic_02.jpg" />
+            <img src="img/mainPic_03.jpg" />
+            <img src="img/mainPic_04.jpg" />
+            <img src="img/mainPic_05.jpg" />
+            <img src="img/mainPic_06.jpg" />
+            <img src="img/mainPic_07.jpg" />
+            <div class="popup"></div>
+            <div class="my-pagination"></div>
+            <ul class="nav-box" id="navBox">
+                <li class="nav-btn" :class='"nav"+($index+1)' v-for="n in 30">{{ n+1 }}</li>
+            </ul>
+            <!--不同的写法-->
+            <!--<ul class="nav-box" id="navBox">
+                <li class="nav-btn" :class='"nav"+($index+1)' v-for="nav in navs">{{ nav }}</li>
+            </ul>-->
+        </div>
+        <div class="mainBox swiper-container">
+            <div class="swiper-wrapper" id="popupBox">
+                <div class="swiper-slide" v-for="link in links">
+                    <div class="hongbaoBox">
+                        <img :src="'img/tanchuang/'+($index+1)+'.png'" class="mainPic">
+                        <div class="enter">
+                            <a :href="link.link1" target="_blank"></a>
+                        </div>
+                        <div class="hongbao">
+                            <a :href="link.link1" target="_blank"></a>
+                        </div>
+                        <div class="close"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="close-btn"></div>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,402 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,button,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,input,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,textarea,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;box-sizing:border-box}address,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}table{border-collapse:collapse;border-spacing:0}caption,th{text-align:left;font-weight:400}abbr,body,fieldset,html,iframe,img{border:0}address,cite,dfn,em,i,var{font-style:normal}[hidefocus],summary{outline:0}li{list-style:none}h1,h2,h3,h4,h5,h6,small{font-size:100%}sub,sup{font-size:83%}code,kbd,pre,samp{font-family:inherit}q:after,q:before{content:none}textarea{overflow:auto;resize:none}input,textarea{-webkit-appearance:none;border:none;outline:0;background:0 0;-webkit-tap-highlight-color:rgba(255,0,0,0)}label,summary{cursor:default}a,button{cursor:pointer;background:0 0;border:none}b,em,h1,h2,h3,h4,h5,h6,strong{font-weight:700}a,del,ins,s,u{text-decoration:none}body,button,input,keygen,legend,select,textarea{color:#333;outline:0;font-family:"microsoft yahei",STHeiTi,sans-serif}body{background-color:#fff}a{-webkit-tap-highlight-color:rgba(255,0,0,0);outline:0}@media screen and (min-width:320px){html{font-size:21.33px}}@media screen and (min-width:360px){html{font-size:24px}}@media screen and (min-width:375px){html{font-size:25px}}@media screen and (min-width:414px){html{font-size:27.6px}}@media screen and (min-width:480px){html{font-size:32px}}@media screen and (min-width:640px){html{font-size:42.67px}}@media screen and (min-width:750px){html{font-size:50px}}
+.homepage-box {
+    /*display: none;*/
+    position: relative;
+}
+
+.mainPic {
+    width: 100%;
+}
+
+.popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .8;
+    display: none;
+}
+
+.mainBox {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    margin: 0 auto;
+    width: 100%;
+    z-index: 100;
+    visibility: hidden;
+}
+
+.mainBox a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.homepage-box img {
+    width: 100%;
+    display: block;
+}
+
+.nav-box {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 49;
+    font-size: 0;
+}
+
+.nav-btn {
+    float: left;
+    color: #000;
+    text-align: center;
+    line-height: 4.0rem;
+    /*border: 1px #fff solid;
+    font-size: 3rem;
+    color: greenyellow;*/
+}
+
+.nav1 {
+    position: absolute;
+    top: 2rem;
+    right: 0;
+    width: 4rem;
+    height: 8rem;
+}
+
+.nav2 {
+    position: absolute;
+    top: 7rem;
+    left: 5rem;
+    width: 4rem;
+    height: 5rem;
+}
+
+.nav3 {
+    position: absolute;
+    top: 9rem;
+    left: 0rem;
+    width: 4.5rem;
+    height: 6rem;
+}
+
+.nav4 {
+    position: absolute;
+    top: 11rem;
+    left: 9rem;
+    width: 4rem;
+    height: 6rem;
+}
+
+.nav5 {
+    position: absolute;
+    top: 15rem;
+    left: 4rem;
+    width: 4rem;
+    height: 5rem;
+}
+
+.nav6 {
+    position: absolute;
+    top: 16rem;
+    left: 0rem;
+    width: 4rem;
+    height: 7rem;
+}
+
+.nav7 {
+    position: absolute;
+    top: 19rem;
+    left: 9rem;
+    width: 6rem;
+    height: 6rem;
+}
+
+.nav8 {
+    position: absolute;
+    top: 23rem;
+    left: 5rem;
+    width: 4rem;
+    height: 5rem;
+}
+
+.nav9 {
+    position: absolute;
+    top: 23rem;
+    left: 0rem;
+    width: 5rem;
+    height: 6.3rem;
+}
+
+.nav10 {
+    position: absolute;
+    top: 26rem;
+    left: 9rem;
+    width: 6rem;
+    height: 7rem;
+}
+
+.nav11 {
+    position: absolute;
+    top: 30rem;
+    left: 0rem;
+    width: 6rem;
+    height: 7rem;
+}
+
+.nav12 {
+    position: absolute;
+    top: 34rem;
+    left: 7rem;
+    width: 4rem;
+    height: 5rem;
+}
+
+.nav13 {
+    position: absolute;
+    top: 36rem;
+    left: 11rem;
+    width: 4rem;
+    height: 6rem;
+}
+
+.nav14 {
+    position: absolute;
+    top: 39rem;
+    left: 0rem;
+    width: 6rem;
+    height: 7rem;
+}
+
+.nav15 {
+    position: absolute;
+    top: 42rem;
+    left: 10rem;
+    width: 5rem;
+    height: 8rem;
+}
+
+.nav16 {
+    position: absolute;
+    top: 46rem;
+    left: 5.3rem;
+    width: 4rem;
+    height: 6rem;
+}
+
+.nav17 {
+    position: absolute;
+    top: 48rem;
+    left: 0rem;
+    width: 5rem;
+    height: 7rem;
+}
+
+.nav18 {
+    position: absolute;
+    top: 51rem;
+    left: 10rem;
+    width: 5rem;
+    height: 7rem;
+}
+
+.nav19 {
+    position: absolute;
+    top: 55rem;
+    left: 4rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+.nav20 {
+    position: absolute;
+    top: 57rem;
+    left: 0rem;
+    width: 4rem;
+    height: 6rem;
+}
+
+.nav21 {
+    position: absolute;
+    top: 59rem;
+    left: 10rem;
+    width: 5rem;
+    height: 7rem;
+}
+
+.nav22 {
+    position: absolute;
+    top: 63rem;
+    left: 4rem;
+    width: 4rem;
+    height: 5rem;
+}
+
+.nav23 {
+    position: absolute;
+    top: 64rem;
+    left: 0rem;
+    width: 4rem;
+    height: 8rem;
+}
+
+.nav24 {
+    position: absolute;
+    top: 66rem;
+    left: 8rem;
+    width: 4rem;
+    height: 5rem;
+}
+
+.nav25 {
+    position: absolute;
+    top: 68rem;
+    left: 12rem;
+    width: 3rem;
+    height: 6rem;
+}
+
+.nav26 {
+    position: absolute;
+    top: 72rem;
+    left: 4rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+.nav27 {
+    position: absolute;
+    top: 73rem;
+    left: 0rem;
+    width: 4rem;
+    height: 6rem;
+}
+
+.nav28 {
+    position: absolute;
+    top: 76rem;
+    left: 6rem;
+    width: 5rem;
+    height: 6rem;
+}
+
+.nav29 {
+    position: absolute;
+    top: 75rem;
+    left: 11rem;
+    width: 4rem;
+    height: 8rem;
+}
+
+.nav30 {
+    position: absolute;
+    top: 79rem;
+    left: 0rem;
+    width: 6rem;
+    height: 7rem;
+}
+
+.hongbaoBox {
+    position: absolute;
+    top: 15%;
+    left: 16.67%;
+    width: 66.67%;
+    /*background: #f00;*/
+}
+
+.hongbaoBox .enter {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 66%;
+    /*background: #ff0;
+    opacity: .5;*/
+}
+
+.hongbaoBox .hongbao {
+    position: absolute;
+    bottom: 2.3rem;
+    width: 100%;
+    height: 2.5rem;
+    /*background: #fff;
+    opacity: .5;*/
+}
+
+.hongbaoBox .close {
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    width: 30%;
+    height: 2rem;
+    /*background: #fff;
+    opacity: .5;*/
+}
+
+.enter-box {
+    position: absolute;
+    top: 32.5%;
+    left: 17%;
+    width: 66%;
+    height: 45.8%;
+    /*background: #000;*/
+    z-index: 101;
+    opacity: .5;
+}
+
+.enter-pane {
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+
+.slidingNo {
+    overflow: hidden;
+    height: 100%;
+}
+
+.my-pagination {
+    /*position: absolute;
+	top: 0;
+	left: 6%;
+	width: 88%;
+	height: 5rem;
+	background: #fff;
+	z-index: 1;
+	opacity: .5;*/
+    display: none;
+}
+
+
+/*.swiper-pagination-bullet {
+	float: left;
+	width: 14.28%;
+	height: 33.33%;
+	border-top: 2px #E4E4E4 solid;
+	color: #000;
+	text-align: center;
+	font-weight: 700;
+	font-size: 1rem;
+	line-height: 4.0rem;
+	border-left: 1px #000 solid;
+	border-bottom: 1px #000 solid;
+}*/
+
+
+/*.my-pagination .swiper-pagination-bullet-active {
+	background: #f00;
+	border-top: 2px #F50000 solid;
+	color: #fff;
+}*/
+
+.close-btn {
+    position: absolute;
+    top: 4.8%;
+    right: 10%;
+    width: 10.5%;
+    height: 6%;
+    z-index: 101;
+}
